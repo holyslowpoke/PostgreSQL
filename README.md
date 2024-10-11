@@ -1,13 +1,13 @@
 # PostgreSQL
 
-##SELECT
+## SELECT
 Select исопльзуется для выбора элемента из таблицы sql
 можно использовать FROM если нужно обратиться к конкртеной таблице
 также можно использовать псевдонимы для изменения имен 
 ```sql
 SELECT name FROM table;
 ```
-##Column alias (псевдонимы)
+## Column alias (псевдонимы)
 
 ```sql
 SELECT
@@ -23,7 +23,7 @@ SELECT
 FROM
   customers;
 ```
-##ORDER BY
+## ORDER BY
 ASC - убывание
 DESC - возрастание
 ```sql
@@ -37,6 +37,6 @@ ORDER BY
 Функция LENGTH()принимает строку и возвращает длину этой строки.
 Используйте параметры NULLS FIRSTи NULLS LASTдля явного указания порядка NULLс другими ненулевыми значениями.
 
-##SELECT DISTINCT
+## SELECT DISTINCT
 
 SELECT DISTINCT удаляет дубликаты из набоа результатов 
