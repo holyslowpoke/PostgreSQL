@@ -102,7 +102,7 @@ WHERE
 ORDER BY 
   name_length;
 ```
-### (<>) - nott contains
+### (<>) - not contains
 ```sql
 SELECT 
   first_name, 
@@ -116,7 +116,24 @@ WHERE
 ## AND - логическое и
 Используйте AND оператор для объединения нескольких логических выражений.
 ## OR - логическое или
+
+
 Используйте OR оператор для объединения нескольких логических выражений.
+
+## LIMIT
+```sql
+SELECT 
+  select_list 
+FROM 
+  table_name 
+ORDER BY 
+  sort_expression 
+LIMIT 
+  row_count;
+```
+## FETCH
+Нужен для пропуска определнного количества строк и ищвлеть определнное количество 
+
 
 
 
