@@ -134,6 +134,11 @@ LIMIT
 ## FETCH
 Нужен для пропуска определнного количества строк и ищвлеть определнное количество 
 
+## Раздел 3. Объединение нескольких таблиц
+
+## Присоединения - joins
+https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-joins/
+
 
 
 
